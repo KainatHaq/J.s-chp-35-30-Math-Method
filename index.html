@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     Q# 4 
+    <div class="container">
+        <img src="/pic1.jpg" id="dice-image" />
+        <h1> Dice Roller</h1>
+        <button type="button" id="dice-btn" onclick="showDice()">
+          Roll the Dice <i class="fas fa-dice"></i>
+        </button>
+        <p id="diceNum" class="show"></p>
+      </div> 
+       Question #5 
+    <h1>Coin Toss</h1>
+
+    <h3>Click the below button to toss your coin </h3>
+    <button onclick="tossTheCoin()">Toss the Coin</button>
+
+    <p id="random">Coin Number is...</p>
+    <p id="message">Message</p> 
+    
+     Q#6
+    <div class="container">
+        <h1> Number Guessing Game</h1>
+        <p>Guess a Number Between 1 to 100</p>
+        <input type="number" id="guessInput" placeholder="Enter Your Number" min="1" max="30">
+         <button onclick="checkGuess()"> Guess</button>
+         <p id="message"></p>
+         <p id="Attempts">Attempts:</p>
+         <button onclick="resetGames()">Reset Games</button>
+       </div> 
+       Q# 7
+        Question #7 
+         <h1>Weight Input </h1>
+        <h3>Please Enter your Weight :</h3>
+        <input  type="text" id="weightInput" placeholder="Eg. 50, 50kgs, 50.2kgs, 50.2kilograms">
+          <button  onclick="displayWeight()">Submit</button>
+      <p id="result_1">Result</p>
+
+      Q#8  
+       QUESTION #8 
+  <h1>Guess the right number</h1>
+ <h3>Enter your guess number(1 to 10) below:</h3>
+ <input  type="text" id="GuessNum" placeholder="Enter your guess">
+ <button  onclick="Guess()">Submit</button>
+ <p id="result_2">Comment</p> 
+    
+
+    <script src="/style.js"></script>
+</body>
+</html>
